@@ -18,10 +18,16 @@
         background-image: url('images/psyforest.jpg');
         background-repeat: no-repeat;
         height: 80px;
+        text-shadow: 0 3px 3px black;
+    }
+
+    .navbar {
+        box-shadow: 0 2px 5px black;
     }
 
     .topImage {
         border-radius: 50px;
+        box-shadow: 0 3px 5px black;
     }
 
     .images {
@@ -52,11 +58,15 @@
         display: inline-block;
     }
 
+    .shadow {
+        box-shadow: 0 3px 5px black;
+    }
+
 </style>
 
 <body>
 
-    <nav>
+    <nav class='navBar'>
         <div class='nav-wrapper blue'>
             <a class='brand-logo center'>Morganism</a>
             <ul class='nav-mobile right' class='hide-on-med-and-down'>
@@ -114,7 +124,7 @@
               <p class="grey-text text-lighten-4">Here are my particulars...</p>
               <p>Email - evansmorgan777@gmail.com</p>
               <p>Cell Phone - 0827138933</p>
-              <a href='https://twitter.com/morganism777'><img src='images/twitter.png' width='80px' height='80px'></a>
+              <a class='shadow' href='https://twitter.com/morganism777'><img src='images/twitter.png' width='80px' height='80px'></a>
             </div>
             
             <div class="col l4 offset-l2 s12">
