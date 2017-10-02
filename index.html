@@ -7,6 +7,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>    
     <link href="https://fonts.googleapis.com/css?family=Wendy+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
 </head>
 
 <style>
@@ -21,7 +22,7 @@
 
     .images {
         width: 25%;
-        height: 150px;
+        height: auto;
     } 
 
     .footerImage {
@@ -36,6 +37,11 @@
     .jsimage {
         height: 180px;
         width: 200px;   
+    }
+
+    .aboutMe {
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
 </style>
@@ -57,10 +63,11 @@
             <img class='topImage responsive-img' src='images/miniMe.jpeg'>
     </div>
 
-        <div  class='col s6 m6'>
+        <div class='aboutMe col s6 m6'>
             <h3 class='center'>Hello... welcome to my website!</h3>
             <h5 class='center'>I am a Web-Developer Living in Cape Town South Africa</h5>
             <h5 class='center'>I have been studying web design for a year now</h5>
+            <h5 class='center'>Always trying to better myself, and always willing to progress</h5>
             
         </div>
 
@@ -75,8 +82,8 @@
     <div class='center'>
         <h3>My Skillset</h3>
         <br></br>
-        <img class='images center' src='images/html_css.png'>
-        <img class='images center' src='images/materialize.png'>
+        <img class='images center responsive-img' src='images/html_css.png'>
+        <img class='images center responsive-img' src='images/materialize.png'>
     </div>
 
     <br></br>
@@ -84,8 +91,8 @@
     <div class='center'>
         <h3>Coming Soon...</h3>
         <br></br>
-        <img class='jsimage' src='images/javascript.png'>
-        <img class='jsimage' src='images/node_js.png'>
+        <img class='jsimage responsive-img' src='images/javascript.png'>
+        <img class='jsimage responsive-img' src='images/node_js.png'>
     </div>
 
     <br></br>
